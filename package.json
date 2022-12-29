@@ -1,20 +1,24 @@
 {
   "name": "fbmee-monorepo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:introduction": "pnpm -r --filter @fbmee/introduction run dev:mp-weixin"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lixiao95/fbmee-monorepo.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Lixiao",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lixiao95/fbmee-monorepo/issues"
   },
-  "homepage": "https://github.com/lixiao95/fbmee-monorepo#readme"
+  "homepage": "https://github.com/lixiao95/fbmee-monorepo#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "sass": "^1.57.1",
+    "tailwindcss": "^3.2.4"
+  }
 }

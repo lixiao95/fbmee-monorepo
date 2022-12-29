@@ -5,5 +5,5 @@ packages:
   - 'components/**'
   # all packages in subdirs of requestApi
   - 'apis/**'
-  - # all packages in subdirs of utils
+  # all packages in subdirs of utils
   - 'utils/**'
